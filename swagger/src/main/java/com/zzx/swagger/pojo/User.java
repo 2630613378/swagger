@@ -7,6 +7,7 @@ import io.swagger.annotations.ApiModelProperty;
 public class User {
     @ApiModelProperty("名字")
     private String name;
+    @ApiModelProperty("年龄")
     private Integer age;
 
     public String getName() {
