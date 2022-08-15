@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloSwaggerController {
 
     @GetMapping("/hello")
+    @ApiOperation("测试swagger")
     public String helloSwagger(){
         return "helloSwagger";
     }
